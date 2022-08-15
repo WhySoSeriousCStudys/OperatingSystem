@@ -8,8 +8,8 @@
 
 프로세스들의 특징을 갖고있는 것: `process metadata`
 
-<aside>
-💡 **Process Metadata**
+
+💡 **Process Metadata**  
 - Process ID
 - Process State
 - Process Priority
@@ -18,7 +18,6 @@
 - CPU Usage
 - Memory Usage
 
-</aside>
 
 이 메타데이터는 프로세스가 생성되면 `PCB(Process Control Block)` 이라는 곳에 저장됨
 
@@ -28,10 +27,10 @@
 
 ![image](https://user-images.githubusercontent.com/46514182/184569499-6d441eeb-67a9-40c1-9fd0-a742d043ea1a.png)
 
-![image](https://user-images.githubusercontent.com/46514182/184569513-911c8de6-1e10-4c7f-a852-a0158da665b6.png)  
 
-<aside>
-💡 - **프로세스 상태**: 상태는 new(새로운), ready(준비완료), running(실행), waiting(대기), halted(정지)
+
+💡 **정보들**
+- **프로세스 상태**: 상태는 new(새로운), ready(준비완료), running(실행), waiting(대기), halted(정지)
 - **프로세스 카운터**: 프로그램 카운터는 이 프로세스가 다음에 실행할 명령어의 주소를 가리킨다
 - **CPU 레지스터들**: CPU 레지스터는 컴퓨터 구조에 따라 다양한 수와 타입을 가진다. 레지스터에는 여러가지 상태정보들과 프로그램카운터는 나중에 프로세스가 계속 올바르게 실행되도록하기 위해서, 인터럽트 발생 시 저장되어야 함
 - **CPU 스케줄링 정보**: 이 정보는 프로세스의 우선순위, 스케줄 큐에 대한 포인터와 다른 스케줄 매개변수들을 포함함
@@ -39,9 +38,11 @@
 - **회계 정보**: CPU 사용 시간과 경과된 실시간, 시간 제한, 계정 번호, job 또느 process 번호 등 포함
 - **입출력 상태 정보**: 프로세스에게 할당된 입출력 장치들과 열린 파일의 목록 등을 포함함
 
-</aside>
 
 → 프로세스 제어 블록은 프로세스마다 달라지는 모든 정보를 저장하는 저장소의 역할을 함
+
+![image](https://user-images.githubusercontent.com/46514182/184569513-911c8de6-1e10-4c7f-a852-a0158da665b6.png)  
+
 
 ```c
 프로그램 실행 → 프로세스 생성 → 프로세스 주소 공간에 (코드, 데이터, 스택) 생성
