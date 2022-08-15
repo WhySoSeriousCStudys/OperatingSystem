@@ -26,9 +26,9 @@
 
 : 프로세스 메타데이터들을 저장해 놓는 곳. 특정 프로세스와 연관된 여러 정보를 수록하며 다음과 같은 정보를 포함함
 
-![Untitled](03%20PCB%20&%20Context%20Switching%205343168be9944fb99fe0adb134b34ecf/Untitled.png)
+![image](https://user-images.githubusercontent.com/46514182/184569499-6d441eeb-67a9-40c1-9fd0-a742d043ea1a.png)
 
-![Untitled](03%20PCB%20&%20Context%20Switching%205343168be9944fb99fe0adb134b34ecf/Untitled%201.png)
+![image](https://user-images.githubusercontent.com/46514182/184569513-911c8de6-1e10-4c7f-a852-a0158da665b6.png)  
 
 <aside>
 💡 - **프로세스 상태**: 상태는 new(새로운), ready(준비완료), running(실행), waiting(대기), halted(정지)
