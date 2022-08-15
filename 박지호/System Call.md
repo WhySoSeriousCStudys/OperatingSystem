@@ -13,7 +13,7 @@ Process 생성과 제어를 위한 함수 호출
 
 → 보통 고급 프로그래밍 언어들로 작성된 프로그램들은 직접 system call을 사용할 수 없기 때문에 고급 API(운영체제가 제공하는)를 통해 system call에 접근하게 하는 방법
 
-![Untitled](02%20System%20Call%20295f6576784141dbb6721223f07410e6/Untitled.png)
+![image](https://user-images.githubusercontent.com/46514182/184569386-ff22c65a-06de-46f4-b661-3e89f68d02e0.png)  
 
 system call을 사용하는 이유: 사용자 어플리케이션이 운영체제의 치명적인 데이터의 수정/삭제를 막기 위함
 
