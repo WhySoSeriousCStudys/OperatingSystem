@@ -17,7 +17,7 @@
 
 현재 수행중인 프로그램을 멈추고, 상태 레지스터와 PC등을 스택에 잠시 저장한 뒤에 인터럽트 서비스 루틴으로 간다
 
-![Untitled](01%20Interrupt%20b62fe92eb69446d58245e4864a613c85/Untitled.png)
+![image](https://user-images.githubusercontent.com/46514182/184569270-b8f96957-5253-4a1b-a166-87081e5b9b01.png)  
 
 > CPU가 인터럽트 되면, CPU는 하던일을 중단하고, 즉시 고정된 위치로 실행을 옮긴다.
 > 
@@ -56,7 +56,7 @@
 
 → 입출력 장치가 CPU에게 자신의 상태 변화를 통보하는 하드웨어 기법을 **인터럽트(interrupt)**라고 함.
 
-![Untitled](01%20Interrupt%20b62fe92eb69446d58245e4864a613c85/Untitled%201.png)
+![image](https://user-images.githubusercontent.com/46514182/184569237-eba1a7c3-e351-4d1e-9a87-8aeee36be82b.png)  
 
 인터럽트 방식은 하드웨어로 지원을 받아야 하는 제약이 있지만, 폴링에 비해 신속하게 대응하는 것이 가능하다. 따라서 **'실시간 대응'**이 필요할 때는 필수적인 기능이다.
 
